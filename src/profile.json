@@ -1,0 +1,85 @@
+{
+    "title": "Jaehwi Kim",
+    "summary": "I code and dance",
+    "studies": [
+      {
+        "institute": "University of Illinois at Urbana-Champaign",
+        "url": "https://illinois.edu",
+        "degree": "Bachelor of Science in Computer Science",
+        "location": "Champaign, Illinois",
+        "relatedCoursework": "Data Structure, Database Systems, User Interface Design, Virtual Reality, Computer Architecture, System Programming, Numerical Methods, Introduction to Bioinformatics, Text Information Systems, Programming Languages and Compilers, Introduction to Algorithms and Models of Computation, Social Visualization, Computational Photography, Nuclear Power Engineering, Applied Linear Algebra",
+        "durationDates": "August 2014 - May 2020"
+      }
+    ],
+    "projects": [
+      {
+        "logo": "",
+        "url": "https://jaehwi95.pythonanywhere.com/",
+        "title": "Safe Ride Chicago",
+        "mainDesc1": "Web Development",
+        "detail1": "Used MySQL and Django framework to create a web application that provides advanced data visualization of crimes, as well as crime information over routes users select in Chicago.",
+        "mainDesc2": "Data Visualization",
+        "detail2": "Implemented visualized graphs and graphical representation (heat map) of crimes using data set from Chicago Police Department.",
+        "mainDesc3": "User-friendly Interaction",
+        "detail3": "Responsible for deployment and back-end development assisting users to login, logout, and modify their accounts to enable users to manipulate their own databases.",
+        "startDate": "2018-06-01"
+      },
+      {
+        "logo": "",
+        "url": "http://mfp.kch.illinois.edu/video",
+        "title": "Virtual Paddleboarding",
+        "mainDesc1": "Motivation",
+        "detail1": "Worked with team of three and a professor to develop a paddleboarding game that motivates those going through physical rehabilitation by testing their balance in VR (Unity3D).",
+        "mainDesc2": "Immersiveness",
+        "detail2": "Integrated the HTC Vive with whole-body motion capture and dynamic oor platform to provide an unique testbed for exploring behavioral and neural changes due to an exposure to paddleboarding.",
+        "mainDesc3": "UI Development",
+        "detail3": "Took charge of back-end development making the game more immersive, and developed user-friendly layout of screen capture (mini map).",
+        "startDate": "2018-01-01"
+      },
+      {
+        "logo": "",
+        "url": "https://github.com/jaehwi95/Sequence-Alignment",
+        "title": "Genome and Protein Sequence Alignment",
+        "mainDesc1": "Motivation",
+        "detail1": "Developed a program to analyze gene and protein sequences of human, baboon, and chimpanzee using global and local pair-wise sequence alignments.",
+        "mainDesc2": "Real-world Dataset",
+        "detail2": "Utilized dataset retrieved from KEGG GENES and NCBI databases to query the gene and protein sequences.",
+        "mainDesc3": "Algorithms",
+        "detail3": "Compared two different gene and protein sequences using Needleman-Wunsch algorithm for global alignment and Smith-Waterman algorithm for local alignment problem.",
+        "startDate": "2018-08-01",
+        "endDate": "2018-12-01"
+      },
+      {
+        "logo": "",
+        "url": "https://github.com/jaehwi95/Food-Tinder",
+        "title": "Food Tinder",
+        "mainDesc1": "Wireframing",
+        "detail1": "Using Balsamiq wireframe application, designed front-end user-friendly interface for an interactive application that enable users to set up their profile, find nearby restaurants, and socialize with other users by eating together.",
+        "mainDesc2": "Addressing User Needs",
+        "detail2": "Evaluated cognitive walkthroughs and usability tests to address user needs.",
+        "startDate": "2018-01-01",
+        "endDate": "2018-05-01"
+      }
+    ],
+    "experiences": [
+      {
+        "companyName": "Genius Plaza Inc.",
+        "url": "https://www.geniusplaza.com/en/",
+        "roles": [
+          {
+            "title": "Front End Developer Intern",
+            "mainDesc1": "React / Redux",
+            "detail1": "Developed an educational platform to democratize quality education for all students, especially for the most underserved primarily using React for building interfaces, and Redux for state management.",
+            "mainDesc2": "Teamwork",
+            "detail2": "Collaborated with UI/UX designers, developers, product owners, and marketing teams to bring mockups to life, and support projects during all phases of delivery.",
+            "mainDesc3": "Agile Product Development",
+            "detail3": "Adopted Scrum methodology to provide constructive feedback, communicate functional requirements, and prioritize tasks in a full project life cycle.",
+            "startDate": "2019-06-04",
+            "endDate": "2019-08-16",
+            "currentJob": false,
+            "location": "Miami, Florida"
+          }
+        ]
+      }
+    ]
+  }
