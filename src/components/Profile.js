@@ -4,6 +4,8 @@ import classnames from 'classnames';
 import Experience from "./Experience";
 import Education from './Education';
 import Project from './Project';
+import CodeSlides from './CodeSlides';
+import DanceSlides from './DanceSlides';
 import profile from '../profile.json';
 
 export default class Profile extends Component {
@@ -27,10 +29,18 @@ export default class Profile extends Component {
       render() {
         return <div>
           <Jumbotron>
-            <Container>
-              <h1 className="display-3">{profile.title}</h1>
-              <p className="lead">{profile.summary}</p>
-            </Container>
+            <div style={{display: "flex"}}>
+              <div style={{width:"35%"}}>
+                <DanceSlides></DanceSlides>
+              </div>
+              <div style={{width:"70%"}}>
+                <h1 className="display-3">{profile.title}</h1>
+                <p className="lead">{profile.summary}</p>
+              </div>
+              <div style={{width:"35%"}}>
+                <CodeSlides></CodeSlides>   
+              </div>         
+            </div>
           </Jumbotron>
     
           <Container>
