@@ -13,7 +13,7 @@
     ],
     "projects": [
       {
-        "logo": "",
+        "logo": "../img/profile.jpg",
         "url": "https://jaehwi95.pythonanywhere.com/",
         "title": "Safe Ride Chicago",
         "mainDesc1": "Web Development",
@@ -65,19 +65,20 @@
       {
         "companyName": "Genius Plaza Inc.",
         "url": "https://www.geniusplaza.com/en/",
+        "logo": "src/img/gp_logo.png",
+        "title": "Front End Developer Intern",
+        "startDate": "2019-06-04",
+        "endDate": "2019-08-16",
+        "currentJob": false,
+        "location": "Miami, Florida",
         "roles": [
           {
-            "title": "Front End Developer Intern",
             "mainDesc1": "React / Redux",
             "detail1": "Developed an educational platform to democratize quality education for all students, especially for the most underserved primarily using React for building interfaces, and Redux for state management.",
             "mainDesc2": "Teamwork",
             "detail2": "Collaborated with UI/UX designers, developers, product owners, and marketing teams to bring mockups to life, and support projects during all phases of delivery.",
             "mainDesc3": "Agile Product Development",
-            "detail3": "Adopted Scrum methodology to provide constructive feedback, communicate functional requirements, and prioritize tasks in a full project life cycle.",
-            "startDate": "2019-06-04",
-            "endDate": "2019-08-16",
-            "currentJob": false,
-            "location": "Miami, Florida"
+            "detail3": "Adopted Scrum methodology to provide constructive feedback, communicate functional requirements, and prioritize tasks in a full project life cycle."
           }
         ]
       }
