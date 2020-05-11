@@ -20,7 +20,7 @@ export default class Education extends Component {
                                             <Media style={{display: "flex", justifyContent: "space-around", margin: "0px 0px 50px 0px"}}>
                                                 <img src={UIUC} alt="uiuc_broken" style={{height: "40%", width: "40%"}}></img>
                                                 <div>
-                                                    <a href={study.url}>{study.institute}</a>
+                                                    <a href={study.url}>{study.institute}></a>
                                                     {
                                                         [
                                                             {
