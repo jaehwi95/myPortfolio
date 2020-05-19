@@ -4,6 +4,7 @@ import classnames from 'classnames';
 import Experience from "./Experience";
 import Education from './Education';
 import Project from './Project';
+import Resume from './Resume';
 import CodeSlides from './CodeSlides';
 import DanceSlides from './DanceSlides';
 import profile from '../profile.json';
@@ -39,7 +40,7 @@ export default class Profile extends Component {
               </div>
               <div style={{width:"35%"}}>
                 <CodeSlides></CodeSlides>   
-              </div>         
+              </div>
             </div>
           </Jumbotron>
     
@@ -63,6 +64,12 @@ export default class Profile extends Component {
                   Project
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink className={classnames({ active: this.state.activeTab === '4' })}
+                         onClick={() => { this.toggle('4'); }}>
+                  Resume/CV
+                </NavLink>
+              </NavItem>
             </Nav>
             <TabContent activeTab={this.state.activeTab}>
               <TabPane tabId="1">
@@ -73,6 +80,9 @@ export default class Profile extends Component {
               </TabPane>
               <TabPane tabId="3">
                 <Project/>
+              </TabPane>
+              <TabPane tabId="4">
+                <Resume/>
               </TabPane>
             </TabContent>
           </Container>
